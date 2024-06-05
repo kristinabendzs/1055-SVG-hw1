@@ -25,9 +25,10 @@ body {
 
 .icons-display {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
-.icons-display img {
+.icons-display object {
     width: 200px;
     padding: 10px;
 }
+
