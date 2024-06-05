@@ -23,11 +23,12 @@ body {
     height: 100px;
 }
 
-.icons-display {
+#icons-display {
     display: flex;
     flex-direction: row;
 }
-.icons-display object {
+
+#icons-display object {
     width: 200px;
     padding: 10px;
 }
