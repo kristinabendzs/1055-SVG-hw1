@@ -46,6 +46,16 @@
         fill:rgb(42, 21, 5);
       }
     </style>
+    <script>
+    let svg = document.querySelector("#honeydew-melon-icon");
+
+    function logID() {
+      console.log(this.id);
+    }
+        
+    svg.addEventListener("click", logID);
+
+  </script>
     <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
       <feOffset dx="5" dy="4"/>
       <feGaussianBlur result="blur" stdDeviation="0"/>

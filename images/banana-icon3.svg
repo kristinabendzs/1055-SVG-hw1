@@ -39,6 +39,16 @@
       }
 
     </style>
+    <script>
+    let svg = document.querySelector("#vanilla-banana-icon");
+
+    function logID() {
+      console.log(this.id);
+    }
+        
+    svg.addEventListener("click", logID);
+
+    </script>
     <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
       <feOffset dx="4" dy="2"/>
       <feGaussianBlur result="blur" stdDeviation="0"/>

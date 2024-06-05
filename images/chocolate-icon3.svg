@@ -37,8 +37,17 @@
       #chocolate-caramel-icon:hover #chocolate-text {
         fill: rgb(42, 21, 5);
       }
-
     </style>
+    <script>
+    let svg = document.querySelector("#chocolate-caramel-icon");
+
+    function logID()
+    {console.log(this.id);
+    }
+        
+    svg.addEventListener("click", logID);
+
+  </script>
     <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
       <feOffset dx="4.69" dy="4.69"/>
       <feGaussianBlur result="blur" stdDeviation="0"/>
