@@ -49,6 +49,16 @@
       #strawberry-blueberry-icon:hover #strawberry-text {
         fill:rgb(42, 21, 5)
       }
+      <script>
+    let svg = document.querySelector("#strawberry-blueberry-icon");
+
+    function logID()
+    {console.log(this.id);
+    }
+        
+    svg.addEventListener("click", logID);
+
+  </script>
     </style>
     <filter id="drop-shadow-5" filterUnits="userSpaceOnUse">
       <feOffset dx="4" dy="3"/>

@@ -26,6 +26,16 @@
         transform: scale(1.2)
       }
     </style>
+    <script>
+    let svg = document.querySelector("#swerve-bubble-icon");
+
+    function logID()
+    {console.log(this.id);
+    }
+        
+    svg.addEventListener("click", logID);
+
+  </script>
     <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
       <feOffset dx="4" dy="4"/>
       <feGaussianBlur result="blur" stdDeviation="0"/>
