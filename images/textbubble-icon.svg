@@ -11,14 +11,14 @@
       }
 
       .cls-3 {
-        filter: url(#drop-shadow-4);
+        filter: url(#drop-shadow-3);
       }
 
       .cls-2 {
         fill: #f9f4e7;
       }
     </style>
-    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
       <feOffset dx="4" dy="4"/>
       <feGaussianBlur result="blur" stdDeviation="0"/>
       <feFlood flood-color="#77002e" flood-opacity=".45"/>
